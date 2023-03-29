@@ -421,9 +421,12 @@ body {
 
 .game {
   position: relative;
-  --section-padding: 0px 0px;
+  --section-padding: 100px 100px;
   text-align: center;
 }
+
+.game .btn { margin-inline: auto; }
+
 
 /*-----------------------------------*\
   #TOP COLLECTION
