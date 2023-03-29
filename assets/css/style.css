@@ -415,8 +415,15 @@ body {
 .hero .btn { margin-inline: auto; }
 
 
+/*-----------------------------------*\
+  #HERO
+\*-----------------------------------*/
 
-
+.game {
+  position: relative;
+  --section-padding: 0px 0px;
+  text-align: center;
+}
 
 /*-----------------------------------*\
   #TOP COLLECTION
