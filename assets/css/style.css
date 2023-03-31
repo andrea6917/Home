@@ -271,6 +271,7 @@ body {
 .btn:is(:hover, :focus-visible) { background-color: var(--electric-indigo); }
 
 .text-center { text-align: center; }
+.text-left { text-align: left; }
 
 .section-title { margin-block-end: 44px; }
 
@@ -419,18 +420,22 @@ body {
   #HERO
 \*-----------------------------------*/
 
-.game {
+.games {
   position: relative;
   --section-padding: 100px 100px;
   text-align: center;
 }
 
-.game .btn { margin-inline: auto; position: center}
+.games .btn { margin-inline: auto; position: center}
 
 
 /*-----------------------------------*\
   #TOP COLLECTION
 \*-----------------------------------*/
+
+.top-collection {
+  --section-padding: 100px 100px;
+}
 
 .top-collection .title-wrapper .btn-link { display: none; }
 

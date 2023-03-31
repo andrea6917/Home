@@ -51,11 +51,11 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link label-lg link:hover">Home</a>
+            <a href="#games" class="navbar-link label-lg link:hover">Home</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link label-lg link:hover">Explore</a>
+            <a href="#collection" class="navbar-link label-lg link:hover">Explore</a>
           </li>
 
           <li>
@@ -126,10 +126,38 @@
 
       <!-- #GAMES -->
 
-      <section class="section game" aria-label="Game-01">
+      <section id="games" class="section games" aria-label="Game-01">
         <div class="container">
-          <iframe src="https://andrea6917.github.io/Home/Games/01" style="width:960px;height:600px"></iframe>
+
+          <h2 class="headline-md section-title text-center" id="games-label">Games</h2>
+          <div class="title-wrapper">
+            <h2 class="text-left" id="flaggiverse-label">Flaggyverse</h2>
+          </div>
+
+          <iframe id="iframeUnityProject" src="https://andrea6917.github.io/Home/Games/01" style="width:100%;height:600px;"></iframe> <!--overflow-y: auto;overflow-x: auto;overflow: hidden;cursor: pointer;-->
           <a href="./Games/01" class="btn">Full Screen</a>
+
+          <!-- <script>
+            // whenever a mouse wheel event occurs, execute ScrollingY()
+            var iframeElement = document.getElementById("iframeUnityProject").contentWindow;
+            iframeElement.addEventListener("wheel", ScrollingY, true);
+            
+            // manually scrolling iframe parent window
+            // event.deltaY —> amount of lines to scroll as provided by OS
+            // single line size in pixels —> usually the default font size of 16
+            function ScrollingY( event ) { window.scrollBy({
+                top: event.deltaY * 16,
+                left: 0,
+                behavior: 'smooth' });
+            }
+          </script> -->
+          <!-- <script>
+            document.addEventListener('wheel', onScroll, false);
+            document.addEventListener('mousemove', onMouse, false);
+            var content = document.getElementsByClassName('webgl-content');
+            function onMouse() { content[0].style['pointer-events'] = 'auto'; }
+            function onScroll() { content[0].style['pointer-events'] = 'none'; }
+          </script> -->
         </div>
       </section>
 
@@ -222,7 +250,7 @@
         - #TOP COLLECTION
       -->
 
-      <section class="section top-collection" aria-labelledby="collection-label">
+      <section id="collection" class="section top-collection" aria-labelledby="collection-label">
         <div class="container">
 
           <div class="title-wrapper">
