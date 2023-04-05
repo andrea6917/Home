@@ -1,0 +1,89 @@
+============ SERVICES ============ 
+
+- WEB3 PROJECT
+-- Smart Contract (ERC20, ERC721, ERC1155)
+-- Website
+-- Dapp (web, mobile, pc)
+
+- GAMES
+
+============ PROJECTS ============ 
+
+=== WEB3
+
+- Cubit Club
+- Games On Chain Pass
+- Flaggyverse
+- Stefania Pinci
+
+=== GAMES
+
+- Gunman Rush
+-- Personal Project​
+​-- Hypercasual
+-- Shaders
+
+- Pizza Slices
+-- Personal Project​
+-- Advertising
+-- Firebase
+
+- Go Down
+-- Personal Project/Working Project​
+-- PvP Online
+-- Play Games e Game Center 
+-- Advertising
+-- Firebase
+-- IAP
+
+- 5x10
+-- Personal Project​
+-- PvP Online
+-- Play Games e Game Center 
+-- Advertising
+-- Firebase
+-- IAP
+
+- HARRIERS
+-- Academic Project
+-- Multiplayer
+-- 4 designers, 4 programmers, 3 3D Artists, 3 Concept Artists
+
+- Xenosaurs
+-- Academic Project​
+-- 5 designers, 4 programmers, 3 3D Artists, 3 Concept Artists
+-- Play Games
+-- Advertising
+-- IAP
+
+- Fire Boxes
+-- Personal Project
+-- Play Games
+-- Advertising
+
+- Cowzuuka
+-- Working Project
+-- Play Games e Game Center 
+-- Advertising
+-- Firebase
+-- IAP
+
+- Matchy Catch
+-- Working Project
+-- Firebase
+
+- Prog. Biokip
+-- Working Project
+-- Play Games
+-- Advertising
+-- Firebase
+-- IAP
+
+- The Cathedral
+-- Academic Project​​
+-- 4 designers, 4 programmers, 3 3D Artists
+
+- Zakkarias
+-- Academic Project​
+-- Global Game Jam
+-- 2 designers, 4 programmers, 3 Concept Artists
