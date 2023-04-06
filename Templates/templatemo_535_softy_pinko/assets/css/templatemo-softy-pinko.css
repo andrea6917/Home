@@ -1603,6 +1603,11 @@ contact
 .test:hover {
   margin-top: -10px;
   background: var(--bs-color-hg-00);
+  color: var(--bs-color-txt-06);
+}
+
+.test:hover strong{
+  color: var(--bs-color-txt-00);
 }
 
 .test:before {
@@ -1638,7 +1643,7 @@ contact
 .test strong {
   display: block;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 22px;
   color: var(--bs-color-txt-06);
   letter-spacing: 0.25px;
   margin-bottom: 5px;

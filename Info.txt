@@ -87,3 +87,43 @@
 -- Academic Project​
 -- Global Game Jam
 -- 2 designers, 4 programmers, 3 Concept Artists
+
+
+============ TO DO ============ 
+
+===== SITO ===== 
+
+== HEADER ==
+- Img logo
+- Font logo
+
+== MAIN ==
+- Frase Main
+- Frase Secondaria
+
+== FEATURE ==
+- Feature 1 (titolo, didascalia, imagine)
+- Feature 2 (titolo, didascalia, imagine)
+- Feature 3 (titolo, didascalia, imagine)
+
+== ABOUT ==
+- About 1 (titolo, didascalia, imagine)
+- About 2 (titolo, didascalia, imagine)
+
+== MY WORKS ==
+- didascalia
+- Categoria
+- Ordine
+- Links
+- Nomi
+
+== KEEP IN TOUCH ==
+
+- Didascalia
+- Bottone Linkedin
+- Bottone mail
+
+
+===== SOCIAL ===== 
+
+- Linkedin (aggiungere competenze web3)
