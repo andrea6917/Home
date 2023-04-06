@@ -33,6 +33,146 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+
+:root {
+  --bs-color-bg-00: #101010;
+  --bs-color-bg-01: #181515;
+  --bs-color-bg-02: #191825;
+  --bs-color-bg-03: #FEFBF6;
+  --bs-color-bg-04: #9d5bd9;
+  --bs-color-bg-05: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  --bs-color-bg-05: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+
+  --bs-color-txt-00: #FEFBF6;
+  --bs-color-txt-01: #777;/*F7F7F7*/
+  --bs-color-txt-02: #95389E;
+  --bs-color-txt-03: #3B566E;/*FFA3FD*/
+  --bs-color-txt-04: #3B566E;/*FFA3FD*/
+  --bs-color-txt-05: #3B566E;/*FFA3FD*/
+  --bs-color-txt-06: #1e1e1e;/*FFA3FD*/
+
+  --bs-color-item-00: #FEFBF6;/*865DFF*/
+  --bs-color-item-01: #101010;
+  --bs-color-item-02: #101010;
+  --bs-color-item-03: #101010;
+
+  --bs-color-hg-00: #810CA8;
+  --bs-color-hg-01: #C147E9;
+
+
+
+
+  --bs-color-00: #101010;
+  --bs-color-01: #181515;
+  --bs-color-02: #ebebeb;
+
+  --bs-color-03: #191825;
+  --bs-color-04: #865DFF;
+  --bs-color-05: #E384FF;
+  --bs-color-06: #FFA3FD;
+
+  --bs-color-07: #810CA8;
+  --bs-color-08: #C147E9;
+  --bs-color-09: #E5B8F4;
+  --bs-color-10: #A6D1E6;
+
+  --bs-color-11: #7F5283;
+  --bs-color-12: #3D3C42;
+
+  --bs-color-13: #191825;
+  --bs-color-14: #865DFF;
+  --bs-color-15: #E384FF;
+  --bs-color-16: #FFA3FD;
+  
+  --bs-color-17: #000000;
+  --bs-color-18: #150050;
+  --bs-color-19: #3F0071;
+  --bs-color-20: #FB2576;
+
+  --bs-color-21: #1A1A40;
+  --bs-color-22: #270082;
+  --bs-color-23: #7A0BC0;
+  --bs-color-24: #FA58B6;
+
+  --bs-color-25: #FEFBF6;
+  --bs-color-26: #A6D1E6;
+  --bs-color-27: #7F5283;
+  --bs-color-28: #3D3C42;
+
+  --bs-color-29: #F7F7F7;
+  --bs-color-30: #43D8C9;
+  --bs-color-31: #95389E;
+  --bs-color-32: #100303;
+
+
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #1abc9c;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #1abc9c;
+  --bs-secondary: #2c3e50;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 26, 188, 156;
+  --bs-secondary-rgb: 44, 62, 80;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+  --bs-border-width: 0.125rem;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.5rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.75rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-pill: 50rem;
+  --bs-link-color: #1abc9c;
+  --bs-link-hover-color: #15967d;
+  --bs-code-color: #d63384;
+  --bs-highlight-bg: #fff3cd;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -81,7 +221,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: var(--bs-color-00);
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -108,18 +248,18 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: var(--bs-color-bg-00);
   font-family: "Raleway", sans-serif;
 }
 
 ::selection {
-  background: #ff589e;
-  color: #fff;
+  background: var(--bs-color-bg-00);
+  color: var(--bs-color-00);
 }
 
 ::-moz-selection {
-  background: #ff589e;
-  color: #fff;
+  background: var(--bs-color-bg-00);
+  color: var(--bs-color-00);
 }
 
 .section {
@@ -129,7 +269,21 @@ body {
 }
 
 .section.colored {
-  background: #f2f2fe;
+  background: var(--bs-color-bg-01);
+}
+
+.section.colored2 {
+  /* background: var(--bs-color-bg-05); */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/banners/banner-bg_014.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+  /* height: 100vh; */
 }
 
 .hr {
@@ -137,18 +291,18 @@ body {
   width: 100%;
   height: 1px;
   margin-top: 100px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--bs-color-bg-02);
 }
 
 .left-heading.light .section-title {
-  color: #ffffff;
+  color: var(--bs-color-bg-03);
 }
 
 .left-heading .section-title {
   font-weight: 500;
   font-size: 24px;
   line-height: 42px;
-  color: #1e1e1e;
+  color: var(--bs-color-bg-03);;
   letter-spacing: 0.25px;
   margin-bottom: 30px;
   position: relative;
@@ -161,46 +315,46 @@ body {
 .center-heading .section-title {
   font-weight: 500;
   font-size: 28px;
-  color: #1e1e1e;
+  color: var(--bs-color-bg-03);;
   letter-spacing: 1.75px;
   line-height: 38px;
   margin-bottom: 20px;
 }
 
 .center-heading.colored .section-title {
-  color: #ffffff;
+  color: var(--bs-color-txt-00);
 }
 
 .center-text {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  color: #777;
+  color: var(--bs-color-txt-01);
   line-height: 28px;
   letter-spacing: 1px;
   margin-bottom: 50px;
 }
 
 .center-text.colored {
-  color: #fff;
+  color: var(--bs-color-txt-00);
 }
 
 .center-text p {
   font-size: 15px;
-  color: #777;
+  color: var(--bs-color-txt-01);
   margin-bottom: 30px;
 }
 
 .left-text {
   font-weight: 400;
   font-size: 16px;
-  color: #777;
+  color: var(--bs-color-txt-01);
   line-height: 28px;
   letter-spacing: 1px;
 }
 
 .left-text.light {
-  color: #fff;
+  color: var(--bs-color-txt-00);;
 }
 
 .left-text p {
@@ -208,7 +362,7 @@ body {
 }
 
 .left-text p.dark {
-  color: #3B566E;
+  color: var(--bs-color-txt-03);
 }
 
 .padding-bottom-top-60 {
@@ -314,7 +468,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: var(--bs-color-hg-00);
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -343,7 +497,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: var(--bs-color-hg-00);
 }
 
 button.main-button {
@@ -364,7 +518,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: var(--bs-color-hg-00);
 }
 
 
@@ -448,7 +602,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: var(--bs-color-hg-00);
 }
 
 .header-area .main-nav .menu-trigger {
@@ -471,7 +625,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #3B566E;
+  background-color: var(--bs-color-txt-03);
   display: block;
   position: absolute;
   width: 30px;
@@ -485,7 +639,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #3B566E;
+  background-color: var(--bs-color-txt-03);
   display: block;
   position: absolute;
   width: 30px;
@@ -520,27 +674,27 @@ header
   top: 10px;
 }
 
-.header-area .main-nav .menu-trigger.active span,
-.header-area .main-nav .menu-trigger.active span:before,
-.header-area .main-nav .menu-trigger.active span:after {
+.header-area .main-nav .menu-trigger.enable span,
+.header-area .main-nav .menu-trigger.enable span:before,
+.header-area .main-nav .menu-trigger.enable span:after {
   background-color: transparent;
   width: 100%;
 }
 
-.header-area .main-nav .menu-trigger.active span:before {
+.header-area .main-nav .menu-trigger.enable span:before {
   -moz-transform: translateY(6px) translateX(1px) rotate(45deg);
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #3B566E;
+  background-color: var(--bs-color-txt-03);
 }
 
-.header-area .main-nav .menu-trigger.active span:after {
+.header-area .main-nav .menu-trigger.enable span:after {
   -moz-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #3B566E;
+  background-color: var(--bs-color-txt-03);
 }
 
 .header-area.header-sticky {
@@ -556,11 +710,11 @@ header
 }
 
 .header-area.header-sticky .nav li a {
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
 }
 
-.header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+.header-area.header-sticky .nav li a.enable {
+  color: var(--bs-color-hg-00);
 }
 
 @media (max-width: 1200px) {
@@ -620,7 +774,7 @@ header
     padding: 0px !important;
     border: none !important;
     background: #fff !important;
-    color: #3B566E !important;
+    color: var(--bs-color-txt-03) !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
@@ -644,7 +798,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/Test/025.png); /*003 009 016 0201*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -769,7 +923,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: var(--bs-color-hg-00);
 }
 
 .features-small-item .icon {
@@ -797,7 +951,7 @@ features
 .features-small-item .features-title {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -807,7 +961,7 @@ features
 .features-small-item p {
   font-weight: 400;
   font-size: 13px;
-  color: #777;
+  color: var(--bs-color-txt-01);
   letter-spacing: 0.5px;
   line-height: 25px;
   position: relative;
@@ -857,7 +1011,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/banners/banner-bg_012.png);
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -955,7 +1109,7 @@ parallax & home seperator
   display: block;
   font-weight: 400;
   font-size: 14px;
-  color: #777;
+  color: var(--bs-color-txt-01);
   letter-spacing: .75px;
 }
 
@@ -963,7 +1117,7 @@ parallax & home seperator
   display: block;
   font-weight: 400;
   font-size: 17px;
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
   letter-spacing: 0.25px;
   margin-bottom: 5px;
   margin-top: 20px;
@@ -1166,7 +1320,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 17px;
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
   letter-spacing: 0.25px;
   margin-bottom: 5px;
 }
@@ -1175,7 +1329,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff589e;
+  color: var(--bs-color-hg-00);
   letter-spacing: 0.25px;
 }
 
@@ -1186,7 +1340,7 @@ team
   margin-bottom: 25px;
   font-weight: 400;
   font-size: 15px;
-  color: #777;
+  color: var(--bs-color-txt-01);
   letter-spacing: 0.6px;
   line-height: 26px;
 }
@@ -1210,11 +1364,11 @@ pricing
 }
 
 .pricing-item.active .pricing-header .pricing-title {
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background-color: var(--bs-color-hg-00);
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1240,7 +1394,7 @@ pricing
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.25px;
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
   width: 180px;
   height: 40px;
   line-height: 40px;
@@ -1342,9 +1496,9 @@ blog
 }
 
 .blog-post-thumb :hover {
-  /* color: #ff589e05; */
-  /* background-color: #ff589e90; */
-  /* border-color: #ff589e90;
+  /* color: var(--bs-color-hg-00)05; */
+  /* background-color: var(--bs-color-hg-00)90; */
+  /* border-color: var(--bs-color-hg-00)90;
   border-radius: 30px; */
   margin-top: -10px;
 }
@@ -1353,7 +1507,7 @@ blog
   display: block;
   font-weight: 400;
   font-size: 17px;
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
   letter-spacing: 0.25px;
   margin-bottom: 5px;
   margin-top: 20px;
@@ -1386,19 +1540,19 @@ blog
 .blog-post-thumb h3 a {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
   letter-spacing: 0.25px;
   line-height: 26px;
 }
 
 .blog-post-thumb h3 a:hover {
-  color: #ff589e;
+  color: var(--bs-color-hg-00);
 }
 
 .blog-post-thumb .text {
   font-weight: 400;
   font-size: 13px;
-  color: #777;
+  color: var(--bs-color-txt-01);
   letter-spacing: 0.26px;
   line-height: 26px;
   margin-bottom: 15px;
@@ -1410,7 +1564,7 @@ blog
   line-height: 30px;
   font-weight: 300;
   font-size: 14px;
-  color: #777;
+  color: var(--bs-color-txt-01);
   padding-left: 30px;
 }
 
@@ -1433,7 +1587,7 @@ contact
 
 .test {
   display: block;
-  background: #fff;
+  background: var(--bs-color-item-00);
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
@@ -1448,7 +1602,7 @@ contact
 
 .test:hover {
   margin-top: -10px;
-  background: #ff589e;
+  background: var(--bs-color-hg-00);
 }
 
 .test:before {
@@ -1477,7 +1631,7 @@ contact
   display: block;
   font-weight: 400;
   font-size: 14px;
-  color: #777;
+  color: var(--bs-color-txt-06);
   letter-spacing: .75px;
 }
 
@@ -1485,14 +1639,10 @@ contact
   display: block;
   font-weight: 400;
   font-size: 17px;
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
   letter-spacing: 0.25px;
   margin-bottom: 5px;
   margin-top: 20px;
-}
-
-.test strong:hover {
-  color: #fff;
 }
 
 /* 
@@ -1508,7 +1658,7 @@ contact
 #contact-us h5 {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: var(--bs-color-txt-06);
   letter-spacing: 0.25px;
   line-height: 26px;
 }
@@ -1527,7 +1677,7 @@ contact
 
 .contact-form input,
 .contact-form textarea {
-  color: #777;
+  color: var(--bs-color-txt-01);
   font-size: 14px;
   border: 1px solid #eee;
   width: 100%;
@@ -1570,9 +1720,9 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #fff;
+  color: var(--bs-color-bg-04);
    text-align: center;
-  background-color: #9d5bd9;
+  background-color: var(--bs-color-bg-03);
   width: 36px;
   height: 36px;
   line-height: 36px;
@@ -1586,8 +1736,8 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
-  color: #fff;
+  background-color: var(--bs-color-hg-00);
+  color: var(--bs-color-txt-00);
 }
 
 footer .copyright {
@@ -1598,7 +1748,7 @@ footer .copyright {
   padding-bottom: 30px;
   font-weight: 400;
   font-size: 12px;
-  color: #fff;
+  color: var(--bs-color-txt-00);
   letter-spacing: 0.88px;
   text-transform: uppercase;
 }

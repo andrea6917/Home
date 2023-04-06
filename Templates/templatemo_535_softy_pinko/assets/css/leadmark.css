@@ -16,35 +16,13 @@
 /*
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #eb4d4b;
-  --orange: #fd7e14;
-  --yellow: #EE5A24;
-  --green: #6ab04c;
-  --teal: #00cec9;
-  --cyan: #1289A7;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #1b1b1b;
-  --primary: #ff6e42;
-  --secondary: #6c757d;
-  --success: #6ab04c;
-  --info: #1289A7;
-  --warning: #EE5A24;
-  --danger: #eb4d4b;
-  --light: #f8f9fa;
-  --dark: #1b1b1b;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Poppins", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-color-00: #2D2727;
+  --bs-color-01: #FEFBF6;
+  --bs-color-02: #810CA8;
+  --bs-color-03: #C147E9;
 }
 
 *,
@@ -11649,6 +11627,12 @@ textarea.form-control {
 /*
 */
 
+/*
+--bs-color-00: #2D2727;
+--bs-color-01: #FEFBF6;
+--bs-color-02: #810CA8;
+--bs-color-03: #C147E9;
+*/
 
 .portfolio-section .filters {
   border: 2px solid #dee2e6;
@@ -11670,7 +11654,7 @@ textarea.form-control {
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
-  color: #444;
+  color: #dee2e6;
   font-size: 13px;
   font-weight: 500;
   opacity: .7;
@@ -11694,7 +11678,7 @@ textarea.form-control {
 .portfolio-section .filters a.active {
   opacity: 1;
   border-radius: 100px;
-  background: #ff589e;
+  background: #C147E9; /*C147E9 810CA8*/
   color: #fff;
 }
 
