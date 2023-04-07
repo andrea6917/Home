@@ -9,93 +9,18 @@
 
 ============ PROJECTS ============ 
 
-=== WEB3
 
-- Cubit Club
-- Games On Chain Pass
-- Flaggyverse
-- Stefania Pinci
+============ TO DO ============
 
-=== GAMES
-
-- Gunman Rush
--- Personal Project​
-​-- Hypercasual
--- Shaders
-
-- Pizza Slices
--- Personal Project​
--- Advertising
--- Firebase
-
-- Go Down
--- Personal Project/Working Project​
--- PvP Online
--- Play Games e Game Center 
--- Advertising
--- Firebase
--- IAP
-
-- 5x10
--- Personal Project​
--- PvP Online
--- Play Games e Game Center 
--- Advertising
--- Firebase
--- IAP
-
-- HARRIERS
--- Academic Project
--- Multiplayer
--- 4 designers, 4 programmers, 3 3D Artists, 3 Concept Artists
-
-- Xenosaurs
--- Academic Project​
--- 5 designers, 4 programmers, 3 3D Artists, 3 Concept Artists
--- Play Games
--- Advertising
--- IAP
-
-- Fire Boxes
--- Personal Project
--- Play Games
--- Advertising
-
-- Cowzuuka
--- Working Project
--- Play Games e Game Center 
--- Advertising
--- Firebase
--- IAP
-
-- Matchy Catch
--- Working Project
--- Firebase
-
-- Prog. Biokip
--- Working Project
--- Play Games
--- Advertising
--- Firebase
--- IAP
-
-- The Cathedral
--- Academic Project​​
--- 4 designers, 4 programmers, 3 3D Artists
-
-- Zakkarias
--- Academic Project​
--- Global Game Jam
--- 2 designers, 4 programmers, 3 Concept Artists
-
-
-============ TO DO ============ 
+- Personal logo
 
 ===== SITO ===== 
 
-== HEADER ==
-- Img logo
-- Font logo
+- Meta description
+- Logo in favicon e Header
+
+== MAIN ==
+- Icon
 
 == MAIN ==
 - Frase Main
@@ -110,20 +35,32 @@
 - About 1 (titolo, didascalia, imagine)
 - About 2 (titolo, didascalia, imagine)
 
-== MY WORKS ==
-- didascalia
-- Categoria
-- Ordine
-- Links
-- Nomi
-
 == KEEP IN TOUCH ==
-
 - Didascalia
-- Bottone Linkedin
-- Bottone mail
 
-
-===== SOCIAL ===== 
+===== SOCIAL =====
 
 - Linkedin (aggiungere competenze web3)
+
+
+
+
+
+
+
+
+
+
+
+==============================
+
+8k, 16k, Cinematic, abstract, technological, colourful, Logo with the text "AIfinity" with a style of AI but text should stay as the main point make it unique and logo like, must contain an abstract symbol of infinity and should have the Metatron's Cube Sacred Geometry as the background and should look similar to chatgbt logo but even better, highly detailed
+
+
+3d rendering, 8k, 16k, Cinematic, abstract, technological, colourful, Logo with the text "TED" with a polar bear, must contain a pc and vr --v 4
+
+Logo with a tech polar bear, flat, must contain a pc
+
+Logo with a game progammer polar bear with a pc
+
+A minimalistic logo for a polar bear working in tech

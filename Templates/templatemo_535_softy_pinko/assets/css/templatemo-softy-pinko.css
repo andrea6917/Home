@@ -1657,7 +1657,7 @@ contact
 */
 
 #contact-us {
-  padding: 160px 0px;
+  padding: 70px 0px;
 }
 
 #contact-us h5 {
@@ -1677,7 +1677,7 @@ contact
 }
 
 .contact-text p {
-  margin-bottom: 28px;
+  margin-bottom: 0px;
 }
 
 .contact-form input,
@@ -1703,13 +1703,45 @@ contact
   padding: 20px;
 }
 
+.social {
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social li {
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.social li a {
+  color: var(--bs-color-bg-04);
+   text-align: center;
+  background-color: var(--bs-color-bg-03);
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.social li a:hover {
+  background-color: var(--bs-color-hg-00);
+  color: var(--bs-color-txt-00);
+}
+
 /* 
 ---------------------------------------------
 footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image: linear-gradient(127deg, var(--bs-color-bg-00) 0%, var(--bs-color-bg-02) 91%);
   padding-top: 30px;
 }
 
@@ -1747,10 +1779,10 @@ footer .social li a:hover {
 
 footer .copyright {
   text-align: center;
-  border-top: 1px solid rgba(250,250,250,0.2);
-  margin-top: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /* border-top: 1px solid rgba(250,250,250,0.2); */
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
   font-weight: 400;
   font-size: 12px;
   color: var(--bs-color-txt-00);
