@@ -41,7 +41,7 @@ reset
   --bs-color-bg-03: #FEFBF6;
   --bs-color-bg-04: #9d5bd9;
   --bs-color-bg-05: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
-  --bs-color-bg-05: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  --bs-color-bg-06: #060606;
 
   --bs-color-txt-00: #FEFBF6;
   --bs-color-txt-01: #777;/*F7F7F7*/
@@ -269,7 +269,7 @@ body {
 }
 
 .section.colored {
-  background: var(--bs-color-bg-01);
+  background: var(--bs-color-bg-00);
 }
 
 .section.colored2 {
@@ -1742,7 +1742,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, var(--bs-color-00) 0%, var(--bs-color-00) 91%);
+  background-color: var(--bs-color-bg-06);
   padding-top: 30px;
 }
 
