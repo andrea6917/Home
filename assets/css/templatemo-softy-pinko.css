@@ -549,7 +549,6 @@ header
 
 .header-area .main-nav .logo {
   float: left;
-  margin-top: 37px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -702,7 +701,8 @@ header
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .header-area.header-sticky .nav {

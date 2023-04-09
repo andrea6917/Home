@@ -35,7 +35,7 @@ $(document).ready(function(){
 $(window).on("load", function() {
     var t = $(".portfolio-container");
     t.isotope({
-        filter: ".all",
+        filter: ".personal",
         animationOptions: {
             duration: 750,
             easing: "linear",
