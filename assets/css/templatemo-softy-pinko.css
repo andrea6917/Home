@@ -1789,7 +1789,7 @@ footer .copyright {
   font-size: 12px;
   color: var(--bs-color-txt-00);
   letter-spacing: 0.88px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 @media (max-width: 991px) {
