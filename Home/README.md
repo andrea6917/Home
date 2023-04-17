@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/metalink)
   ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/metalink?style=social)
@@ -47,4 +47,4 @@ git clone https://github.com/codewithsadee/metalink.git
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee)
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee) -->
