@@ -799,7 +799,8 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/Test/025.png); /*003 009 016 0201*/
+  background: var(--bs-color-bg-00);
+  background-image: url(../images/Test/018.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -992,6 +993,25 @@ features
 
 /* 
 ---------------------------------------------
+services
+--------------------------------------------- 
+*/
+.services {
+  /* overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  background: var(--bs-color-bg-00);
+  /* background-image: url(../images/Test/018.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+  height: 100vh; */
+}
+
+/* 
+---------------------------------------------
 parallax & home seperator
 --------------------------------------------- 
 */
@@ -1012,8 +1032,11 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  /* background-color: var(--bs-color-00); */
+  background-color: var(--bs-color-01);
   /* background-image: url(../images/banners/banner-bg_012.png); */
-  background-image: linear-gradient(127deg, var(--bs-color-00) 0%, var(--bs-color-bg-01) 91%);
+  /* background-image: linear-gradient(127deg, var(--bs-color-00) 0%, var(--bs-color-bg-01) 91%); */
+  
   z-index: 2;
   top: -20%;
   left: -20%;
