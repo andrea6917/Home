@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <script src="/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    
+    <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="/dist/nft-card.min.js"></script>
+
+    <title>OpenSea Embeddable NFT example</title>
+    <style media="screen">
+        body {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          text-align: center;
+          color: #2c3e50;
+        }
+        .header {
+            padding-top: 5vh;
+        }
+        .card-container {
+          width: 90%;
+          margin: auto;
+          padding-top: 5vh;
+        }
+
+    </style>
+</head>
+<body>
+<h1 class="title header">Embeddable NFTs from OpenSea</h1>
+<h3>Show users any crypto collectible and let them buy it straight from your site, using a minimal-dependency web component!</h3>
+<div class="columns is-centered">
+    <div class="column is-8 ">
+        <div class="editor">
+        </div>
+    </div>
+</div>
+<div class="card-container">
+    <div style="padding-top: 2vh;"></div>
+
+    <!-- <nft-card
+    contractAddress="0x48f7be5745e42fefe73bd4e9093e82b5c2a9e92f"
+    tokenId="2"
+    width="100%"
+    wheight="100px"
+    orientation="auto"
+    >
+    </nft-card>
+
+    <div style="padding-top: 2vh;"></div>
+
+    <nft-card
+    contractAddress="0x48f7be5745e42fefe73bd4e9093e82b5c2a9e92f"
+    tokenId="3"
+    orientationMode="vertical"
+    >
+    </nft-card>
+
+    <div style="padding-top: 2vh;"></div>
+
+    <nft-card
+    contractAddress="0x48f7be5745e42fefe73bd4e9093e82b5c2a9e92f"
+    tokenId="4"
+    orientationMode="auto"
+    >
+    </nft-card>
+
+    <div style="padding-top: 2vh;"></div>
+
+    <nft-card
+    contractAddress="0x48f7be5745e42fefe73bd4e9093e82b5c2a9e92f"
+    tokenId="5"
+    orientationMode="horizontal"
+    >
+    </nft-card>
+
+    <div style="padding-top: 5vh;"></div>
+    
+  <div style="padding-top: 5vh;"></div>
+
+  <!-- <iframe
+  src="https://nftembed.org/embed/collection?hasUserProfile=false&saleSplitAddress=&saleSplitFee=&showMarket=false&tokenAddress=0x48f7be5745e42fefe73bd4e9093e82b5c2a9e92f"
+  width="2020"
+  height="2450"
+></iframe> -->
+
+<!-- <iframe
+src="https://nftembed.org/embed/nft?saleSplitAddress=&saleSplitFee=10&showMarket=true&tokenAddress=0x48f7be5745e42fefe73bd4e9093e82b5c2a9e92f&tokenId=1"
+width="100%"
+height="200"
+frameBorder="10"
+></iframe> -->
+
+<iframe
+    src="https://nftembed.org/embed/collection?saleSplitAddress=&saleSplitFee=&tokenAddress=0x48f7be5745e42fefe73bd4e9093e82b5c2a9e92f"
+    width="100%"
+    height="2450"
+  ></iframe>
+
+  <!-- <iframe
+  src="https://nft.coinbase.com/collection/ethereum/0x48f7be5745e42fefe73bd4e9093e82b5c2a9e92f"
+  width="100%"
+  height="2450"
+></iframe> -->
+
+  <div style="padding-top: 5vh;"></div>
+
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
